@@ -51,20 +51,25 @@ body {
 }
 
 .container {
+  flex: 1;
   display: flex;
-
 }
 
 .sidebar {
+  padding: 16px;
   display: flex;
-  flex-direction: column;
   width: 300px;
   flex-shrink: 0;
 }
 
 ul {
   list-style: none;
-  padding: 8px;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 16px;
 }
 
 a {
@@ -77,16 +82,16 @@ a {
   display: flex;
   gap: 16px;
   padding: 32px;
-  flex-flow: row wrap;
-  flex: 1;
+  flex-flow: wrap;
 }
 
 .card {
-  display: flex;
-  padding: 50px;
-  align-items: center;
-  justify-content: center;
-  max-width: 40%;
+  /* display: flex; */
+  padding: 16px;
+  margin: 16px;
+  /* align-items: center; */
+  /* justify-content: center; */
+  width: 300px;
 }
 
 .footer {
