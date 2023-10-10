@@ -1,4 +1,4 @@
-.header  {
+.header {
   font-family: monospace;
   background: papayawhip;
 }
@@ -22,4 +22,35 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+}
+
+/* solution */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* body {
+  text-align: center;
+} */
+
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  gap: 16px;
+}
+
+a:hover {
+  text-decoration: underline;
 }
